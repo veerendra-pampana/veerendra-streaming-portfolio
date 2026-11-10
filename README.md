@@ -1,95 +1,239 @@
-# SUSHMITA — THE SERIES
+# 🎬 Veerendra Pampana — Personal Portfolio
 
-A cinematic, streaming-inspired portfolio for **Veerendra Pampana**: Full-Stack Developer and B.Tech AI & ML student.
-Every section is an episode, every project is an Original, and the whole site plays like a series.
+<p align="center">
+  <img src="https://img.shields.io/badge/Portfolio-Netflix%20Inspired-E50914?style=for-the-badge&logo=netflix&logoColor=white" alt="Netflix Inspired Portfolio" />
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-Blue-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-Fast%20Build-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+</p>
 
-> A personal portfolio with a fictional streaming-platform look. It is not affiliated with Netflix or any other streaming service and uses none of their logos.
+<p align="center">
+  A cinematic, Netflix-inspired personal portfolio showcasing my journey in Artificial Intelligence, Machine Learning and Full-Stack Development.
+</p>
 
-## Run it locally
+---
 
-Requires **Node.js 18+**.
+## 🍿 About the Project
+
+Welcome to my personal portfolio!
+
+I wanted to create something different from a traditional portfolio website. Inspired by the design and experience of streaming platforms, I built an interactive portfolio where my education, technical skills, projects and professional experiences are presented like episodes in a series.
+
+Every project is an Original. Every experience is a chapter. Every section tells a part of my journey.
+
+**This is my story, presented as a series.**
+
+*This is an independently developed portfolio inspired by streaming-platform design. It is not affiliated with Netflix.*
+
+## ✨ Features
+
+* 🎬 Cinematic opening animation.
+* 👤 Interactive profile selection.
+* 🎨 Netflix-inspired dark user interface.
+* 🎥 Animated transitions and visual effects.
+* 🚀 Hero section with personalized introduction.
+* 📚 Education and professional journey.
+* 💻 Featured projects and project details.
+* 🧠 Technical skills and technology categories.
+* ⭐ Top Picks section highlighting interests and work.
+* 📄 Resume viewing and download.
+* 📱 Responsive layouts and mobile-friendly interactions.
+* 🔗 GitHub, LinkedIn and email integration.
+
+## 🛠️ Technology Stack
+
+| Technology    | Purpose                       |
+| ------------- | ----------------------------- |
+| React         | Frontend development          |
+| TypeScript    | Type-safe development         |
+| Vite          | Development and build tooling |
+| CSS           | Styling and responsive design |
+| Framer Motion | Animations and transitions    |
+| Lenis         | Smooth scrolling              |
+| Git           | Version control               |
+| GitHub        | Source code management        |
+
+## 📂 Featured Projects
+
+### 1. Fake Currency Detection
+
+An AI/ML-based application designed to classify images into real currency, fake currency and non-currency categories.
+
+**Technologies:** Python, TensorFlow, Keras, OpenCV, Flask.
+
+### 2. Credit Card Fraud Detection
+
+A machine-learning project focused on identifying potentially fraudulent credit-card transactions.
+
+**Technologies:** Python, Machine Learning, scikit-learn.
+
+### 3. Car Price Predictor
+
+A machine-learning project that estimates vehicle prices using vehicle-related input features.
+
+**Technologies:** Python, Pandas, scikit-learn.
+
+### 4. Online Shopping Application
+
+A full-stack web application developed using frontend and backend technologies.
+
+**Technologies:** HTML, CSS, JavaScript, Node.js, Express.js, MongoDB.
+
+## 🎓 Education
+
+**Bachelor of Technology — Artificial Intelligence & Machine Learning**
+Parul University | 2024 – Present
+
+**Diploma — Computer Engineering**
+Aditya University | 2021 – 2024
+
+## 💼 Internship Experience
+
+* **Thiranex** — Web Development Intern
+* **Oasis Infobyte** — Python Intern
+* **City Online AP Pvt. Ltd.** — Computer Networking Intern
+
+## 🧑‍💻 Skills
+
+* **Programming:** Python, Java, JavaScript, C
+* **Frontend:** HTML, CSS, React
+* **Backend:** Flask, Node.js, Express.js
+* **AI & Machine Learning:** TensorFlow, Keras, scikit-learn, OpenCV
+* **Databases:** MySQL, MongoDB, SQLite
+* **Tools:** Git, GitHub, VS Code, Streamlit
+
+## 🚀 Getting Started
+
+Follow these steps to run the portfolio locally.
+
+### Prerequisites
+
+* Node.js
+* npm
+* Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/veerendra-pampana/veerendra-streaming-portfolio.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd veerendra-streaming-portfolio
+```
+
+### 3. Install dependencies
 
 ```bash
 npm install
+```
+
+### 4. Start the development server
+
+```bash
 npm run dev
 ```
 
-Open the URL Vite prints (usually http://localhost:5173).
+Open the local URL displayed in your terminal.
 
-Production build:
+### 5. Build for production
 
 ```bash
 npm run build
+```
+
+To preview the production build:
+
+```bash
 npm run preview
 ```
 
-The static site is written to `dist/` and can be deployed as-is to Vercel, Netlify, GitHub Pages or any static host.
+The production-ready files are generated inside the `dist` directory.
 
-## Updating the content
+## 📁 Project Structure
 
-**All content lives in one file: [`src/data/portfolio.ts`](src/data/portfolio.ts).** It was generated from the resume, and every component reads from it.
-
-| To change… | Edit |
-| --- | --- |
-| Name, intro, email, LinkedIn, GitHub | `profile` |
-| A project, or a new one | `projects` (add an object; it appears in Originals, the overlay, the resume sheet and the counts) |
-| Achievements / certifications | `achievements`, `certifications` |
-| Skills and their "where it's used" notes | `skillCategories`, `skillEvidence` |
-| Seasons and episodes (My Journey) | `seasons` |
-| Top 10 row | `topPicks` |
-| ▶ Play Intro highlight reel | `introSlides` |
-| Profile order (Recruiter / Developer / Creative) | `viewerProfiles` |
-| Opening studio card text | `profile.originalLabel` |
-
-**Resume:** replace `public/assets/Sushmita_Dasari_Resume.pdf`.
-
-**Photo:** replace `pic1.jpeg` (high-res photo) and `pic.png` (background-removed cutout with the same framing), then run:
-
-```bash
-npm run images
+```text
+Portfolio/
+│
+├── public/
+│   └── assets/
+│       ├── veerendra.png
+│       ├── veerendra-profile.png
+│       └── Veerendra_Resume.pdf
+│
+├── src/
+│   ├── components/
+│   │   ├── About.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── OpeningSequence.tsx
+│   │   ├── ProfileSelector.tsx
+│   │   ├── Originals.tsx
+│   │   ├── Skills.tsx
+│   │   └── TopPicks.tsx
+│   │
+│   ├── data/
+│   │   └── portfolio.ts
+│   │
+│   ├── hooks/
+│   │
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── package.json
+├── index.html
+└── README.md
 ```
 
-This rebuilds the responsive WebP portraits and the social share image in `public/assets/`.
+*The structure above highlights the main application files; additional components and configuration files are included in the repository.*
 
-## What's inside
+## 📝 Customization
 
-```
-src/
-  data/portfolio.ts        ← single source of truth (from the resume)
-  App.tsx                  ← stages: opening → profile select → home; overlays
-  components/
-    OpeningSequence        ← black → studio card → SUSHMITA → THE SERIES → portrait → ▶ PLAY
-    ProfileSelector        ← "Who's watching?" (changes section order only)
-    Navbar                 ← hide-on-scroll nav, profile switcher, mobile menu
-    Hero                   ← billboard: parallax portrait, particles, light streaks, floating chips
-    PlayIntro              ← ▶ Play Intro: zoom into portrait → highlight reel (pause, ← →, tap zones)
-    ContinueWatching       ← cards with real "watched" progress bars
-    About                  ← The Pilot
-    Seasons / EpisodeCard  ← My Journey as seasons and episodes
-    Originals / ProjectCard← pinned horizontal sequence on desktop, swipe rail on touch
-    ProjectModal           ← full-screen project overlay with a shared-element transition
-    TopPicks               ← Top 10-style row
-    Skills                 ← skill genres; each card shows where the skill appears
-    Achievements           ← award-poster cards + certification rail (links to credentials)
-    ResumeViewer/ResumeModal ← designed resume sheet, PDF viewer, download
-    FinalCTA               ← TO BE CONTINUED… + contact links
-    CustomCursor, fx.tsx   ← cursor states, magnetic buttons, 3D tilt, text reveals, particles
-  hooks/                   ← Lenis smooth scroll + scroll lock, media queries, watch progress
-scripts/build-images.mjs   ← portrait/share-image pipeline (sharp)
-```
+The portfolio content is primarily managed through:
 
-**Stack:** React 18, TypeScript, Vite 6, Tailwind CSS 4, Framer Motion 11, Lenis.
+`src/data/portfolio.ts`
 
-## Accessibility and performance
+You can update:
 
-- `prefers-reduced-motion` is respected: smooth scroll, the custom cursor, tilt, particles, grain and the pinned horizontal scroll turn off, and the opening jumps straight to its final frame.
-- Hover effects only run on devices with a precise pointer. Touch devices get tap interactions and native swipe rails.
-- The custom cursor appears only with a mouse or trackpad.
-- Overlays close with Esc, and the highlight reel supports Space and the ← → keys.
-- Portraits are responsive WebP files (25–90 KB). Overlays are code-split, and particles pause when they're off screen.
+* Personal information and introduction.
+* Education and internship experience.
+* Projects and technologies.
+* Skills and categories.
+* Journey seasons and episodes.
+* Featured interests.
+* Profile selection and section ordering.
 
-## Keyboard shortcuts
+## 👨‍💻 About Me
 
-- **Opening:** Enter or Esc skips it.
-- **Play Intro:** Space pauses, ← and → change slides, Esc closes.
-- **Project and resume overlays:** Esc closes.
+**Pampana Veerendra**
+
+B.Tech Artificial Intelligence and Machine Learning Student
+Aspiring AI/ML Engineer | Full-Stack Developer
+
+I am passionate about artificial intelligence, machine learning, software development and creating modern web experiences.
+
+I enjoy learning new technologies and building practical projects that solve real-world problems.
+
+## 🌐 Connect With Me
+
+* **GitHub:** https://github.com/veerendra-pampana
+* **LinkedIn:** https://www.linkedin.com/in/veerendra-pampana-34aa66256/
+* **Email:** [p.veerendra5369@gmail.com](mailto:p.veerendra5369@gmail.com)
+
+## 📌 Project Status
+
+🚧 Portfolio development and improvements are ongoing.
+
+Deployment and additional enhancements are planned.
+
+---
+
+<p align="center">
+  <b>Designed & Developed by Pampana Veerendra</b>
+  <br />
+  🎬 Every developer has a story. This is mine.
+  <br /><br />
+  ⭐ If you like this project, consider giving it a star!
+</p>
